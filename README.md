@@ -81,7 +81,7 @@ Each VM is one `cloud-hypervisor` process, started with `--api-socket` and contr
 <tr valign="top"><td>
 
 - **API service**: the user-facing REST endpoint. Handles authentication, input validation and limit admission.
-- **Scheduler**: picks a host for each pending VM (filter, then weighted score).
+- **Scheduler**: it picks a host for each pending VM (filter, then weighted score).
 - **Controller**: a reconcile loop that compares desired state with actual state and drives create/stop, rollback and auto-heal.
 - **etcd**: the persistent store for VM specs, node heartbeats and memory reservations.
 
