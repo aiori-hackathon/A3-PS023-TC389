@@ -40,7 +40,7 @@
 
 ## 🎯 Problem
 
-Enterprise hypervisor stacks such as OpenStack and libvirt run many daemons, databases and queues. That is too heavy for a two-host edge site. We need the smallest controller that still handles the hard parts correctly:
+Enterprise hypervisor stacks such as OpenStack and libvirt run many daemons, databases and queues. That's too heavy for a two-host edge site. We need the smallest controller that still handles the hard parts correctly:
 
 | Challenge | What can go wrong |
 |---|---|
